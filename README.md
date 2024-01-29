@@ -1,2 +1,2 @@
 # imarticus
-Gloss-website
+Glam-website
