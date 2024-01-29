@@ -1,0 +1,102 @@
+.logo {
+    background-attachment: scroll;
+    width: 100%;
+    height: 357.200px;
+}
+
+/* .gologin ol {
+    margin-right: auto;
+}
+
+.gol {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#golbtn {
+    margin-right: auto;
+    background-color: darkgrey;
+} */
+.exclusive {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+
+img {
+
+    width: 450px;
+    height: 400px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+figcaption {
+    width: 450px;
+    background-color: rgb(104, 67, 67);
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    display: inline-block;
+}
+
+.cost {
+    text-align: center;
+    width: 450px;
+    height: 5px;
+}
+
+.buy-now {
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.add-to-cart {
+    border-radius: 8px;
+    width: 100px;
+    padding: 2px;
+    height: 50px;
+}
+
+.nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fbdede;
+    font-size: 20px;
+
+}
+
+.nav_bar li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover {
+    background-color: #3d2323;
+    color: aliceblue;
+}
+
+.right_nav {
+    float: right;
+}
+
+.left_nav {
+    float: left;
+}
+
+footer {
+    width: 100%;
+    background-color: #fbdede;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1px;
+}
